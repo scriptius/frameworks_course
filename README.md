@@ -5,7 +5,7 @@
 * [laravel](https://github.com/scriptius/laravel.test/commit/fc63026b2bba21d73ad2eb46a6e9d9cda85bfbe2)
 
 # Задание 2
-## Yii2
+## Laravel
 1. Создал middleware ```php artisan make:middleware CheckAuth```
 2. Прописал обработчик handle https://github.com/scriptius/laravel.test/blob/hw2/app/Http/Middleware/CheckAuth.php#L16
 3. Добавил обработчик в список https://github.com/scriptius/laravel.test/blob/hw2/app/Http/Kernel.php#L19
