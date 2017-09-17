@@ -9,3 +9,13 @@
 1. Создал middleware ```php artisan make:middleware CheckAuth```
 2. Прописал обработчик handle https://github.com/scriptius/laravel.test/blob/hw2/app/Http/Middleware/CheckAuth.php#L16
 3. Добавил обработчик в список https://github.com/scriptius/laravel.test/blob/hw2/app/Http/Kernel.php#L19
+
+## Yii2
+1. Создал метод beforeAction https://github.com/scriptius/yii2_test/blob/hw2/controllers/SiteController.php#L128
+
+## Symfony
+1. Создал кастомный контроллер для проверки авторизации
+   https://github.com/scriptius/symfony.test/blob/hw2/src/AppBundle/Controller/AuthCheckController.php
+2. Наследовался от созданного контроллера https://github.com/scriptius/symfony.test/blob/hw2/src/AppBundle/Controller/DefaultController.php#L8
+
+
